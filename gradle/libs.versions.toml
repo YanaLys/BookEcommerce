@@ -1,0 +1,38 @@
+[versions]
+agp = "8.3.2"
+audiovisualizer = "2.2.5"
+blurimageview = "1.3.3"
+blurimageviewVersion = "1.3.3"
+circleimageview = "3.1.0"
+exoplayer = "2.19.1"
+glide = "4.16.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+lottie = "6.4.0"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+palette = "1.0.0"
+recyclerviewAnimators = "4.0.2"
+
+[libraries]
+audiovisualizer = { module = "io.github.gautamchibde:audiovisualizer", version.ref = "audiovisualizer" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+palette = { module = "androidx.palette:palette", version.ref = "palette" }
+recyclerview-animators = { module = "jp.wasabeef:recyclerview-animators", version.ref = "recyclerviewAnimators" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
